@@ -1,0 +1,26 @@
+@media only screen and {min-width: 768px}
+@keyframes color-change {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: green;
+  }
+
+  100% {
+    background-color: blue;
+  }
+}
+
+#box {
+  animation-name: color-change;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: 100;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}

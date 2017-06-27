@@ -1,0 +1,39 @@
+
+______                   _  ___  ___ _____  _
+| ___ \                 | | |  \/  ||  ___|| |
+| |_/ /  ___   __ _   __| | | .  . || |__  | |
+|    /  / _ \ / _` | / _` | | |\/| ||  __| | |
+| |\ \ |  __/| (_| || (_| | | |  | || |___ |_|
+\_| \_| \___| \__,_| \__,_| \_|  |_/\____/ (_)
+
+
+
+
+~Hello there~!
+This is a little gem that shows a simple message~!
+
+This is a simple guide on how to install my simple gem
+And how to use it
+
+INSTALLATION:
+
+Step 1. Go to your powershell
+Step 2. Type in "gem install message-1.0.gem" without the quotations
+Step 3. Wait for the installation
+Step 4. After installing it's ready to use!
+
+HOW TO USE:
+
+Step 1. Used in the 1st part or last part of a file because it clears the console.
+Step 2. First is that "require 'x'" must be typed in a file excluding the double quotation
+Step 3. To show what is inside the file type "Message.x_1" excluding the quotations.
+Step 4. Watch what it shows~!
+
+TAMPERING
+Yes you can use this to create also different messages to be shown....Don't worry it's free!
+
+
+THANK YOU FOR DOWNLOADING MY GEM~
+
+CONTACT
+terifuda@gmail.com

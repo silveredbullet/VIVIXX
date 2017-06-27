@@ -1,0 +1,119 @@
+* {
+  moz box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+abbr, address, article, aside, audio, b, blockquote, body, button, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, sup, table, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.cc_banner-wrapper {
+    z-index: 9001;
+    position: relative;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+.cc_banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px)
+dark-bottom.css:1
+.cc_banner {
+    padding: 15px 30px 15px;
+}
+
+
+.cc_banner {
+    background: #222;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    box-sizing: border-box;
+}
+
+.cc_banner, .cc_message, .cc_btn {
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    -webkit-animation-name: slideUp;
+    animation-name: slideUp;
+}
+
+a, .g-html .highlight, .g-btn.color_primary.outlined, .no-touch .w-blog-entry-link:hover .w-blog-entry-title-h, .no-touch .w-blog-entry-link:hover, .l-main .w-contacts-item i, .w-counter.color_primary .w-counter-number, .w-filters-item.active, .no-touch .w-filters-item.active:hover, .w-form-field > input:focus + i, .w-form-field > textarea:focus + i,
+.w-icon.color_primary .w-icon-link, .w-iconbox.color_primary .w-iconbox-icon, .no-touch .w-iconbox-link:hover .w-iconbox-title, .no-touch .w-pagehead-nav-item:hover, .w-tabs-item.active, .no-touch .w-tabs-item.active:hover, .w-tabs.layout_accordion .w-tabs-section.active .w-tabs-section-header, .no-touch .w-tags-item-link:hover, .w-team-link .w-team-name, .no-touch .w-clients .slick-prev:hover,
+.no-touch .w-clients .slick-next:hover, .woocommerce .products .product .button, .no-touch .woocommerce .products .product .button.loading:hover, .woocommerce .star-rating span:before, .woocommerce-breadcrumb a, .woocommerce div.product .woocommerce-tabs .tabs li.active, .no-touch .woocommerce div.product .woocommerce-tabs .tabs li.active:hover,
+.woocommerce .stars span a:after, #subscription-toggle span.is-subscribed:before, #favorite-toggle span.is-favorite:before {
+    color: #6dbcdb;
+}
+
+a {
+    color: #1b98e0 !important;
+}
+a {
+    -webkit-transition: opacity .3s,padding .3s,color .3s,background-color .3s,box-shadow .3s,border .3s;
+    transition: opacity .3s,padding .3s,color .3s,background-color .3s,box-shadow .3s,border .3s;
+}
+
+.cc_banner, .cc_message, .cc_btn {
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    -webkit-animation-name: slideUp;
+    animation-name: slideUp;
+}
+
+.cc_banner .cc_btn {
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.6em;
+    transition: font-size 200ms;
+    line-height: 1em;
+}
+
+
+.cc_banner .cc_btn {
+    padding: 8px 10px;
+    background-color: #f1d600;
+    cursor: pointer;
+    transition: font-size 200ms;
+    text-align: center;
+    font-size: 0.6em;
+    display: block;
+    width: 33%;
+    margin-left: 10px;
+    float: right;
+    max-width: 120px;
+}
+.cc_banner a, .cc_container a:visited {
+    text-decoration: none;
+    color: #31a8f0;
+    transition: 200ms color;
+}
+.cc_banner .cc_btn, .cc_container .cc_btn:visited {
+    color: #000 !important;
+}

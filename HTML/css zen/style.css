@@ -1,0 +1,147 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 75%;
+    color: #506f15;
+    position: relative;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+header {
+    height: 120px;
+    padding: 10px 0 50px 0;
+    background: #19560a 50% 0 url(img/forest.jpg) no-repeat;
+    background-attachment: fixed, scroll;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+    border-bottom: none;
+    font-family: 'Noto Serif';
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: rgb(221, 228, 224);
+}
+
+h2 {
+    margin: initial;
+    font-size: 25px;
+    font-family: 'Noto Serif', sans-serif;
+    color: rgb(214, 243, 219);
+}
+
+
+.summary {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 0.5em;
+}
+
+.preamble {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    width: 1300px;
+    background-color: #b4bf9e;
+    margin-bottom: -17px;
+}
+
+.explanation {
+    font-family: 'Valera Round', sans-serif;
+    font-size: 1.2em;
+    width: 1300px;
+    background-color: #b4bf9e;
+    padding-top: 20px;
+    margin-bottom: -17px
+}
+
+.participation {
+    font-size: 1.2em;
+    width: 1300px;
+    background-color: #b4bf9e;
+    padding-top: 20px;
+    margin-bottom: -17px;
+}
+
+.benefits {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    width: 1300px;
+    background-color: #b4bf9e;
+    padding-top: 20px;
+    margin-bottom: -17px
+}
+
+.requirements {
+    font-family: 'Valera Round', sans-serif;
+    font-size: 1.2em;
+    width: 1300px;
+    background-color: #b4bf9e;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: rgb(110, 142, 124);
+    padding: 2em;
+    border: solid;
+}
+
+a {
+    color: #fff900;
+    transition: all 1s cubic-bezier(0, -1.29, 0.9, 1.8);;
+    text-decoration: none;
+    width: 90px;
+    position: relative;
+}
+
+
+footer a {
+    display: inline-block;
+    position: relative;
+    transition: color 0.5s cubic-bezier(0.96, -0.46, 0, 2.36), box-shadow 0.5s cubic-bezier(0.85, -0.21, 0, 1.46);
+    padding: 10px;
+}
+
+a:visited {
+    color: #a7ff00;
+}
+
+a:hover {
+  color:#ffffff;
+}
+
+.sidebar {
+    background-image: url(img/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    position: relative;
+}
+
+.wrapper{
+  color: #ffffff;
+  display: inline;
+}
+
+#design-selection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#design-archives {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#zen-resources {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
